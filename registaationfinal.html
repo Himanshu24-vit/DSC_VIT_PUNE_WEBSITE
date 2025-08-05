@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page - DSC VIT Pune</title>
+    <link rel="stylesheet" href="/HTML/WDPROJECT/registrationfilnal.css">
+</head>
+
+<body>
+    <nav>
+        <div class="header">
+            <div class="clublogo">
+                <a href="./wdproject.html"><img src="./imgandsvg/dsc_logo.png" alt="DSC LOGO"></a>
+            </div>
+
+            <div class="headtext">
+                <a href="./wdproject.html" >HOME</a>
+            </div>
+            <div class="headtext">
+                <a href="">ABOUT</a>
+            </div>
+            <div class="headtext">
+                <a href="/HTML/WDPROJECT/ourevent.html" >EVENTS</a>
+            </div>
+            <div class="headtext">
+                <a href="/HTML/WDPROJECT/contact.html" >CONTACT</a>
+            </div>
+            <div class="headtext">
+                <a href="../WDPROJECT/registaationfinal.html" >REGISTER</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="form-wrapper">
+            <img class="logo" src="./imgandsvg/dsc_logo.png" alt="DSC Logo">
+            <h1 class="title"><span id="regis">Registration</span> <span id="formss">Form</span></h1>
+            <form id="registrationForm">
+                <div class="form-group">
+                    <input class="input-box" id="firstName" type="text" placeholder="First Name">
+                    <span id="firstNameError" class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <input class="input-box" id="lastName" type="text" placeholder="Last Name">
+                    <span id="lastNameError" class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <input class="input-box" id="email" type="email" placeholder="Email">
+                    <span id="emailError" class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <input class="input-box" id="phoneNumber" type="tel" placeholder="Phone Number" maxlength="10">
+                    <span id="phoneError" class="error-message"></span>
+                </div>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="termsCheckbox">
+                    <label for="termsCheckbox">I agree to the terms and conditions</label>
+                </div>
+                <button type="submit" class="register-button">Register</button>
+            </form>
+        </div>
+    </div>
+    <script src="../WDPROJECT/registrationfinal.js"></script>
+</body>
+
+</html>

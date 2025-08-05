@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUR EVENTS</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100px;
+            background-color: aliceblue rgba(255, 255, 255, 0.5);
+            backdrop-filter: saturate(180%) blur(4px);
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+
+        }
+
+        .clublogo img {
+            width: 600px;
+            height: auto;
+        }
+
+
+        .navigation {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            margin-left: 20px;
+        }
+
+
+        .headtext {
+            width: 140px;
+            text-align: center;
+        }
+
+        .headtext a {
+            display: block;
+            color: black;
+            text-decoration: none;
+            padding: 20px 0;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .headtext a:hover {
+            background-color: rgba(8, 125, 227, 0.3);
+            border-radius: 5px;
+            transform: scale(1.03);
+        }
+
+        /* Centering the entire carousel */
+        .carousel-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* Full viewport height */
+        }
+
+        /* Restricting width */
+        #carouselExampleCaptions {
+            max-width: 800px;
+            width: 100%;
+        }
+
+        /* Controlling image size */
+        .carousel-item img {
+            max-height: 400px;
+            width: auto;
+            margin: auto;
+        }
+
+        #ourevents {
+            text-align: center;
+            font-size: 70px;
+            font-weight: 700;
+            top: 20%;
+        }
+        .fulldiv{
+            padding-top: 100px;
+        }
+        .fullpage{
+            background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b43f994-9aa9-440b-b5ba-215847ef12d0/d2j98ao-ddb75044-e751-4626-bb6a-278568177ae4.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzViNDNmOTk0LTlhYTktNDQwYi1iNWJhLTIxNTg0N2VmMTJkMFwvZDJqOThhby1kZGI3NTA0NC1lNzUxLTQ2MjYtYmI2YS0yNzg1NjgxNzdhZTQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._IHVcufKjqMvKqXqJhvywJvaw9OErdo8MIUDjrVx6FQ);
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="fullpage">
+        <nav>
+            <div class="header">
+                <div class="clublogo">
+                    <a href="./wdproject.html"><img src="./imgandsvg/dsc_logo.png" alt="DSC LOGO"></a>
+                </div>
+
+                <div class="headtext">
+                    <a href="./wdproject.html">HOME</a>
+                </div>
+                <div class="headtext">
+                    <a href="">ABOUT</a>
+                </div>
+                <div class="headtext">
+                    <a href="/HTML/WDPROJECT/ourevent.html"">EVENTS</a>
+                </div>
+                <div class="headtext">
+                    <a href="/HTML/WDPROJECT/contact.html" >CONTACT</a>
+                </div>
+                <div class="headtext">
+                    <a href="../WDPROJECT/registaationfinal.html" >REGISTER</a>
+                </div>
+            </div>
+        </nav>
+        <div class="fulldiv">
+            <div class="oureventdiv">
+                <h1 id="ourevents">Our Events</h1>
+            </div>
+            <section class="carousel-container">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./imgandsvg/bootcamp.png" class="d-block img-fluid" alt="C++ Bootcamp">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="color: black; font-weight: 800;">C++ Bootcamp</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imgandsvg/ANDROID.png" class="d-block img-fluid" alt="Android Study Jam">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="color: rgb(0, 238, 255); font-weight: 800;">Android Study Jam - Kotlin</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./imgandsvg/HS.png" class="d-block img-fluid" alt="Higher Studies Prep">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 style="color: black; font-weight: 800;">Higher Studies in Abroad Prep</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

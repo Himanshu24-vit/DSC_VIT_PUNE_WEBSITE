@@ -1,0 +1,145 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url(./imgandsvg/gradient\ back.gif);
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue rgba(255,255,255,0.5);
+    /* backdrop-filter: saturate(180%) blur(4px); */
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+
+}
+.clublogo img {
+    width: 600px;
+    height: auto;
+}
+
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+
+.headtext {
+    width: 140px;
+    text-align: center;
+}
+
+.headtext a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.headtext a:hover {
+    background-color: rgba(8, 125, 227, 0.3);
+    border-radius: 5px;
+    transform: scale(1.03);
+}
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-wrapper {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+#regis{
+    color: black;
+}
+#formss{
+    color: orange;
+}
+.logo {
+    width: 350px;
+    margin-bottom: 20px;
+}
+
+.title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.input-box:focus {
+    border: 2px solid #2575fc;
+    background: #fff;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-group label {
+    font-size: 14px;
+}
+
+.register-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #2575fc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.register-button:hover {
+    background: #6a11cb;
+}
+
+.error-message {
+    font-size: 12px;
+    color: #ff4b4b;
+    margin-top: 5px;
+    display: block;
+}
